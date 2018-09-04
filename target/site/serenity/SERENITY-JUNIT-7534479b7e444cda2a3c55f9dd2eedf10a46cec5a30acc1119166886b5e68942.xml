@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="CURA Health Care Login" skipped="0" tests="1" time="30.59" timestamp="2018-09-03 02:34:54"><testcase name="As a user I like to login to CURA Health Care to make an appoinment"><failure message="Goood" type="java.lang.AssertionError">Goood</failure><system-err>Goood
+Implementation.LoginStepImpl.successLoginValidations(LoginStepImpl.java:52)
+LoginSuccessStepdefs.successLogin(LoginSuccessStepdefs.java:24)
+✽.the user makes a successful login(src/test/resources/LoginSuccess.feature:7)
+</system-err></testcase></testsuite>
