@@ -12,8 +12,8 @@ public class LoginStepImpl extends Drivers {
         getDriver().navigate().to("http://demoaut.katalon.com");
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
-
-    protected static void LoginCredentials(String username, String password){
+    
+protected static void LoginCredentials(String username, String password){
 
         getDriver().findElement(By.xpath("//div[@class='text-vertical-center']/a")).click();
         getDriver().findElement(By.id("txt-username")).sendKeys(username);
@@ -33,8 +33,7 @@ public class LoginStepImpl extends Drivers {
         }
 
     }
-
-    protected static void successLoginValidations() {
+protected static void successLoginValidations() {
 
         Assert.assertEquals("Enter Valid Username", "John Doe", "John Doe");
         Assert.assertEquals("Enter Valid Password", "ThisIsNotAPassword", "ThisIsNotAPassword");
