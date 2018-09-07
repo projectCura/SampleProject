@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Book appointment" skipped="0" tests="1" time="25.5" timestamp="2018-09-03 11:41:35"><testcase name="As a user I would like to book an appointment"><error message="Unable to locate element: //*[@id=&quot;combo_facility&quot;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'VINOTHINIs-MacBook-Pro.local', ip: '172.16.20.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '10.0.2'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31305, moz:profile: /var/folders/zw/cyhq5vld71b..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 03137962-f678-bf42-b791-d42228430816&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;combo_facility&quot;]}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'VINOTHINIs-MacBook-Pro.local', ip: '172.16.20.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '10.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Unable to locate element: //*[@id="combo_facility"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'VINOTHINIs-MacBook-Pro.local', ip: '172.16.20.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31305, moz:profile: /var/folders/zw/cyhq5vld71b..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 03137962-f678-bf42-b791-d42228430816
+*** Element info: {Using=xpath, value=//*[@id="combo_facility"]}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'VINOTHINIs-MacBook-Pro.local', ip: '172.16.20.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '10.0.2'
+Driver info: driver.version: unknown</error><system-err>Unable to locate element: //*[@id="combo_facility"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'VINOTHINIs-MacBook-Pro.local', ip: '172.16.20.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31305, moz:profile: /var/folders/zw/cyhq5vld71b..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 03137962-f678-bf42-b791-d42228430816
+*** Element info: {Using=xpath, value=//*[@id="combo_facility"]}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'VINOTHINIs-MacBook-Pro.local', ip: '172.16.20.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '10.0.2'
+Driver info: driver.version: unknown
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+AppointmentStepImpl.selectFacility(AppointmentStepImpl.java:14)
+AppointmentStepdefs.theUserSelectsFacility(AppointmentStepdefs.java:25)
+✽.the user selects Facility(src/test/Resources/Appointment.feature:9)
+</system-err></testcase></testsuite>
